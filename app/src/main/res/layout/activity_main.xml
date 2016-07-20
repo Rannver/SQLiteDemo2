@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fx50j.sqlitedemo2.MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btu_create"
+        android:text="创建数据库"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btu_adddata"
+        android:text="添加数据"
+        android:layout_below="@+id/btu_create"
+        android:paddingTop="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btu_refreshdata"
+        android:text="更新数据"
+        android:layout_below="@+id/btu_adddata"
+        android:paddingTop="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btu_deletedata"
+        android:text="删除数据"
+        android:layout_below="@+id/btu_refreshdata"
+        android:paddingTop="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btu_checkdata"
+        android:text="查询数据"
+        android:layout_below="@+id/btu_deletedata"
+        android:paddingTop="5dp"/>
+
+</RelativeLayout>
